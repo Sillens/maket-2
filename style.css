@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+
+
+body {
+    font-family: 'Ruda', sans-serif;
+    background-color: #9292d867;
+}
+
+
+.header {
+    text-align: center;
+}
+
+.navigation .container {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.navButton a {
+    font-size: 35px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #6d9ce2 25%, #3a6edf 75%, #037df0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    transition: 0.4s;
+}
+
+.navButton a:hover, a:visited, a:focus, a:active {
+    text-decoration: none;
+    transform: scale(1.15);
+    transition: 0.4s;
+}
+
+.info, p {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.info hr, .mainHr {
+    background-color: darkslateblue; 
+    height: 1px; 
+    border: 0;
+}
+
+footer{
+    background-color: #4a5251;
+    color: white;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+}
+
+.icon-vk {
+    width: 48px;
+    height: 48px;
+    background-image: url(img/vk.png);
+}
+
+.icon-inst {
+    width: 48px;
+    height: 48px;
+    background-image: url(img/inst.png);
+}
+
+.icon-facebook {
+    width: 48px;
+    height: 48px;
+    background-image: url(img/facebook.png);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+.menuButton {
+    background-color: green;
+}
+
+.navButtonMobile, input[type="checkbox"] {
+    display: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #6d9ce2 25%, #3a6edf 75%, #037df0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+input[type="checkbox"]:checked ~ .navButtonMobile {
+    display: block;
+}
+
+.btn {
+    font-size: 35px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #6d9ce2 25%, #3a6edf 75%, #037df0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+img {
+    width: 100%;
+}
+
+.borderText {
+    text-align: center;
+    border: 2px inset black;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.blogBox {
+    text-align: left;
+    border: 2px solid black;
+    margin: 1% 0 1% 0;
+    padding: 6px;
+}
+
+/* .blogBox img {
+    size: 5px;
+} */
